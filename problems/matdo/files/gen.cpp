@@ -8,14 +8,6 @@ const int MAXT = 10000000;
 int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);
 
-    /*
-        type:
-        0 -> small
-        1 -> ai = bi
-        2 -> full random
-        3 -> full overlap
-    */
-
     int type = opt<int>("type");
 
     int n, k;
